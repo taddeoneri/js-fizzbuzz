@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .d-flex{
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +14,9 @@
     justify-content: center;
     align-items: center;
 }
-.text-center{
+h1{
     text-align: center;
+    margin: 20px 0px;
 }
 .box{
     max-width: 720px;
@@ -21,6 +25,18 @@
 .square{
     width: 80px;
     height: 80px;
-    background-color: aqua;
     margin: 5px;
 }
+.bg-n{
+    background-color: #F7F1E5;
+}
+.bg-fizz{
+    background-color: #E7B10A;
+}
+.bg-buzz{
+    background-color: #898121;
+}
+.bg-fizz-buzz{
+    background-color: #4C4B16;
+}
+
