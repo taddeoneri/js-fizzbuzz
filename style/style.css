@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.box{
+    max-width: 720px;
+    margin: 10px auto;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    margin: 5px;
+}
